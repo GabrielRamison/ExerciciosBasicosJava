@@ -1,0 +1,15 @@
+public class Crescimento {
+    public static void main(String[] args) {
+        double chico = 0.8;
+        double juca = 0.6;
+        int anos = 0;
+
+        while (juca <= chico) {
+            chico += 0.06;
+            juca += 0.09;
+            anos++;
+        }
+
+        System.out.println("Serão necessários " + anos + " anos para que Juca seja maior que Chico.");
+    }
+}
