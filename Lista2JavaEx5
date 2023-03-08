@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class DiasDesdeInicioDoAno {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Digite o dia: ");
+        int dia = sc.nextInt();
+
+        System.out.print("Digite o mês: ");
+        int mes = sc.nextInt();
+
+        int diasPassados = (mes - 1) * 30 + dia;
+
+        System.out.println("Desde o início do ano, já se passaram " + diasPassados + " dias.");
+    }
+}
